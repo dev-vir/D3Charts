@@ -1,0 +1,11 @@
+<!-- <div class="chartContainer">
+    <app-area-chart #areaChart [data]="chartData">
+    </app-area-chart>
+</div> -->
+
+
+<div>
+    <app-barchart *ngIf="chartData" [data]="chartData"></app-barchart>
+  <app-misrable></app-misrable>
+  
+  </div>
